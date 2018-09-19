@@ -14,14 +14,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
     <!-- Content -->
-<body>
-    <div>
+<body class="container">
+    <div class="d-flex justify-content-center">
         <header>
             <h1>Test</h1>
         </header>
     </div>
     <div>
-        <form>
+        <form class="text-light bg-secondary w-50 p-3">
             <div class="form-group">
                 <label for="toDoInput">To Do</label>
                 <input type="text" class="form-control" id="toDoInput" placeholder="Enter To Do Item">
@@ -30,10 +30,10 @@
                 <label for="notesInput">Notes</label>
                 <textarea class="form-control" id="notesInput" rows="3" placeholder="Enter Notes"></textarea>
             </div>
-                <button type="submit" id="submitToDoButton" class="btn btn-primary">Submit</button>
+                <button type="submit" id="submitToDoButton" class="btn btn-primary w-100">Submit</button>
         </form>
     </div>
-    <div id='toDoCards'>
+    <div id='toDoCards' class="d-flex flex-wrap">
 
     </div>
 </body>
